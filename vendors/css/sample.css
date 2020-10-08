@@ -1,21 +1,24 @@
 html {
-  position: relative;
-  min-height: 100%;
+  width: 100%;
+  min-height: 50px;
+  height: 100%;
 }
 body {
   text-align: center;
 }
 .main-header {
-  padding-bottom: 15%;
-  width: 100%;
+
+  width: auto;
+  height: 5%;
   background-size: cover;
   background-image: url("../images/header.jpg");
   background-attachment: fixed;
+  padding-top: 100px;
 }
 /* ここから */
 header {
-  background-color: grey;
-  height: 30px;
+  background-color: #27292D;
+  height: 50px;
   padding: 25px;
 }
 header ul {
@@ -63,5 +66,6 @@ footer {
   color: white;
   height: 60px;
   padding: 10px;
+  padding-bottom: 20px;
 /* footer部分の実装 */
 }
