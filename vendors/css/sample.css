@@ -7,7 +7,6 @@ body {
   text-align: center;
 }
 .main-header {
-
   width: auto;
   height: 5%;
   background-size: cover;
@@ -17,8 +16,9 @@ body {
 }
 /* ここから */
 header {
+  font-size: 10px;
   background-color: #27292D;
-  height: 50px;
+  height: 40px;
   padding: 25px;
 }
 header ul {
@@ -29,8 +29,8 @@ header ul a {
   text-decoration: none;
 }
 header li {
-  height: 50px;
-  font-size: 1.5rem;
+  height: 40px;
+  font-size: 1.2rem;
   display: inline;
 }
 header ul:after {
